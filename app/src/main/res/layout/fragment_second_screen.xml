@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/resultScreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondScreenFragment"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/teal_200">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="seu imc é"
+        android:textAllCaps="true"
+        android:textSize="32sp"
+        android:layout_margin="20dp"/>
+
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:hint="50"
+        android:textSize="64sp"
+        android:layout_margin="20dp" />
+
+
+    <TextView
+        android:id="@+id/definicao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="você está no peso ideal"
+        android:layout_margin="20dp"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        />
+
+    <Button
+        android:id="@+id/btRecalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="recalcular"
+        android:layout_margin="20dp"/>
+
+</LinearLayout>
